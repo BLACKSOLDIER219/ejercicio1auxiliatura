@@ -1,0 +1,27 @@
+/* Hacemos que el body ocupe toda la ventana y use flex */
+body {
+  background-color: aqua;
+  display: flex;              /* Activamos flex en body */
+  justify-content: center;    /* Centra horizontalmente */
+  align-items: center;        /* Centra verticalmente */
+  height: 100vh;              /* Altura = ventana */
+  margin: 0;                  /* Quitamos márgenes por defecto */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;     /* Para que el texto vaya en columna */
+  justify-content: center;    /* Centra vertical dentro de la caja */
+  align-items: center;        /* Centra horizontal dentro de la caja */
+  text-align: center;
+  background-color: black;
+  width: 130px;
+  height: 130px;
+}
+
+.container h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;            /* Ajusta el tamaño si quieres */
+  margin: 0;                  /* Eliminamos márgenes del h2 */
+}
